@@ -1,6 +1,6 @@
 /*
  * Simply comment these imports in/out to view the compile errors
- * for `crypto.subtle.timingSafeEqual`
+ * for `crypto.subtle.timingSafeEqual`. It should be immediately noticeable.
  */
 
 // import { ApiClient } from "@twurple/api";
