@@ -1,0 +1,6 @@
+name = "twurple-type-override-reproduction"
+main = "./src/main.ts"
+compatibility_date = "2023-04-16"
+
+[dev]
+port = 5000
