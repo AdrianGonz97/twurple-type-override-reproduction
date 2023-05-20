@@ -7,8 +7,9 @@
 		"tsc": "tsc > output.log"
 	},
 	"dependencies": {
-		"@twurple/api": "^6.2.0",
-		"@twurple/auth": "^6.2.0"
+		"@twurple/api": "file:api.tgz",
+		"@twurple/api-call": "file:api-call.tgz",
+		"@twurple/auth": "file:auth.tgz"
 	},
 	"devDependencies": {
 		"@cloudflare/workers-types": "^4.20230419.0",

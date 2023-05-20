@@ -3,14 +3,14 @@
  * for `crypto.subtle.timingSafeEqual`. It should be immediately noticeable.
  */
 
-// import { ApiClient } from "@twurple/api";
-// import { StaticAuthProvider } from "@twurple/auth";
+import { ApiClient } from "@twurple/api";
+import { StaticAuthProvider } from "@twurple/auth";
 
 export default {
 	async fetch(request: Request, env: Env): Promise<Response> {
-		// const client = new ApiClient({
-		// 	authProvider: new StaticAuthProvider("", ""),
-		// });
+		const client = new ApiClient({
+			authProvider: new StaticAuthProvider("", ""),
+		});
 
 		/*
 		 * Implementation doesn't matter but `crypto.subtle.timingSafeEqual` is a
